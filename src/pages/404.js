@@ -15,15 +15,15 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Page not found</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content="Page not found" />
+        <title>Página no encontrada</title>
+        <html lang={lang || 'es'} />
+        <meta name="description" content="Página no encontrada" />
       </Helmet>
       <section id="hero" className="jumbotron">
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
             <h1 className="hero-title text-center">
-              Sorry, this path does not exist{' '}
+              Lo siento, esta dirección no existe.{' '}
               <span role="img" aria-label="emoji">
                 😞
               </span>
@@ -32,7 +32,7 @@ export default () => {
           <Fade bottom duration={1000} delay={1000} distance="30px">
             <p className="hero-cta justify-content-center">
               <Link className="cta-btn cta-btn--hero" to="/">
-                Go back
+                Regresar
               </Link>
             </p>
           </Fade>

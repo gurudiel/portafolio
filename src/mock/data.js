@@ -2,56 +2,59 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Omar O. Narpier | Ingeniero de Software', // e.g: 'Name | Developer'
+  lang: 'es, en', // e.g: en, es, fr, jp
+  description: 'Bienvenido a mi portafolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Omar O. Narpier',
+  subtitle: 'Ingeniero de Software',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/16-2-BT_AUjGiEBzB6a5KvoZSVblQyfv-/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.JPG',
+    title: 'E-commerce site',
+    info:
+      'Sitio web de comercio electrónico tipo Amazon basado en las últimas tecnologias web entre ellas: React JS, Stripe y Firebase.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hello-e12be.web.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.JPG',
+    title: 'Media entertainment app',
+    info:
+      'Sitio web de series y peliculas tipo Netflix utilizando frameworks modernas de Javascript e implementando sistema de pago multiple en la nube.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://netflix-dom.web.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.JPG',
+    title: 'Personal blog',
+    info:
+      'Sitio web personal de científico dominicano utilizando HTML, CSS y Javascript de front-end y con el framework de Microsoft ASP.Net, IIS, Plesk y Windows Server de back-end.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://www.omarpaino-perdomo.com/index.html',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'onarpiern@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +70,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/gurudiel/elcarro.do',
     },
   ],
 };
