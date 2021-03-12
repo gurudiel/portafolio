@@ -22,7 +22,7 @@ const About = () => {
     }
   }, []);
   console.log(resume);
-  const elcv = 'https://drive.google.com/file/d/1vhPqHMOOKuBy0sb8MIQuUXKpHkDnwgX2/view?usp=sharing';
+  
   return (
     <section id="about">
       <Container>
@@ -50,13 +50,13 @@ const About = () => {
                   {paragraphThree ||
                     'Asumo los retos del desarrollo continuo de la sociedad mediante el uso inteligente del software.'}
                 </p>
-                {elcv && (
+                {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={elcv}
+                      href={resume}
                     >
                       CV
                     </a>
